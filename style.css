@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.top-menu {
+  list-style-type: none;
+  background-color: #3e6edc;
+  overflow: hidden;
+}
+.top-menu li {
+  float: left;
+  /* padding: 16px 12px; */
+}
+.top-menu li a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-size: 24px;
+}
+.top-menu li a:hover {
+  background-color: #17409d;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+.food-name {
+  list-style-type: upper-roman;
+  margin-top: 30px;
+  margin-left: 80px;
+}
+.food-name a {
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.image {
+  margin-top: 50px;
+  text-align: center;
+}
+.food-image {
+  width: 600px;
+  height: 600px;
+  text-align: center;
+  object-fit: cover;
+}
